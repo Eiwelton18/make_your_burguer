@@ -1,5 +1,7 @@
 <template>
-  <h2>footer</h2>
+  <footer id="footer">
+    <p>Projeto - Faça seu Hamburguer &copy; 2021</p>
+  </footer>
 </template>
 
 <script>
@@ -8,5 +10,15 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+#footer {
+  height: 165px;
+  background-color: #222;
+  border-top: 4px solid #111;
+  color: #fcba03;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 </style>

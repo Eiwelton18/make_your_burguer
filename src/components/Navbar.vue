@@ -3,7 +3,7 @@
     <router-link to="/" id="logo-url">
       <img :src="logo" :alt="alt" id="logo" />
     </router-link>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link to="/pedidos">Pedidos</router-link>
   </div>
 </template>
@@ -19,6 +19,7 @@ export default {
 #nav {
   background-color: #222;
   border-bottom: 4px solid #111;
+  padding: 15px 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -32,9 +33,6 @@ export default {
 #logo {
   width: 40px;
   height: 40px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
 }
 
 #nav a {
